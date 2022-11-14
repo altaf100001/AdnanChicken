@@ -1,0 +1,304 @@
+{
+
+    "briyani":[
+        {
+            "img":"https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg",
+            "name":"Chicken briyani",
+            "qty":"",
+            "price":"120",
+            "count":1
+        },
+        {
+            "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Biryani-600x600.jpg",
+            "name":"Mutton Briyani",
+            "qty":"",
+            "price":"260",
+            "count":1
+        },
+        {
+            "img":"https://img.myloview.com/stickers/homemade-chicken-tikka-biryani-served-in-a-traditional-brass-vessel-with-yogurt-dip-selective-focus-400-190799170.jpg",
+            "name":"Masala Chicken Tikka Briyani",
+            "qty":"",
+            "price":"200",
+            "count":1
+        },
+        {
+            "img":"https://assets.cntraveller.in/photos/6218cfdf6774879c067d3ece/1:1/w_1080,h_1080,c_limit/best%20biryani%20in%20pune%20lead.jpg",
+            "name":"Masala Gravy Briyani",
+            "qty":"",
+            "price":"160",
+            "count":1
+        },
+        {
+            "img":"https://www.pavaniskitchen.com/wp-content/uploads/2021/04/egg-biryani-recipe-500x500.jpg",
+            "name":"Anda Briyani",
+            "qty":"",
+            "price":"120",
+            "count":1
+        }
+    ],
+  
+  
+    "starter":[
+    
+        {
+            "img":"https://www.loveandotherspices.com/wp-content/uploads/2022/04/air-fryer-whole-chicken-recipe-featured.jpg",
+            "name":"Tandoori Chicken",
+            "qty":"Full",
+            "price":"370",
+            "count":1
+        },
+        {
+            "img":"https://pipingpotcurry.com/wp-content/uploads/2021/04/chicken-tikka-kebab-recipe-Piping-Pot-Curry-500x500.jpg",
+            "name":"Chicken Tikka",
+            "qty":"6 Piece",
+            "price":"140",
+            "count":1
+        },
+        {
+            "img":"https://www.pngitem.com/pimgs/m/152-1523172_transparent-chicken-tikka-png-png-download.png",
+            "name":"Chicken Boneless Tikka",
+            "qty":"6 Piece",
+            "price":"150",
+            "count":1
+        },
+        {
+            "img":"https://untoldrecipesbynosheen.com/wp-content/uploads/2021/08/hariyali-chicken-5-1.jpg",
+            "name":"Malai Chicken Tikka",
+            "qty":"6 Piece",
+            "price":"160",
+            "count":1
+        },
+        {
+            "img":"https://www.bigbasket.com/media/uploads/p/xxl/40240482_4-fresho-chicken-tandoori-whole-leg-fresh-juicy-marinated-ready-to-cook.jpg",
+            "name":"Tandoori Leg Piece",
+            "qty":"3 leg piece",
+            "price":"150",
+            "count":1
+        },
+        {
+            "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Seekh-Kebab.jpg",
+            "name":"Chicken Seekh Kabab",
+            "qty":"4 Piece",
+            "price":"120",
+            "count":1
+        },
+        {
+            "img":"https://static.toiimg.com/thumb/53300215.cms?imgsize=38330&width=800&height=800",
+            "name":"Shami Kabab",
+            "qty":"4 Piece",
+            "price":"80",
+            "count":1
+        },
+        {
+            "img":"https://image.shutterstock.com/shutterstock/photos/200700677/display_1500/stock-photo-delicious-tandoori-chicken-leg-piece-with-salad-india-200700677.jpg",
+            "name":"Chicken Leg Piece Fry",
+            "qty":"1 Piece",
+            "price":"70",
+            "count":1
+        },
+        {
+            "img":"https://ohthatsgood.com/wp-content/uploads/2022/08/Chicken-Lollipop-1200x1200-1.jpg",
+            "name":"Chicken Lolipop",
+            "qty":"6 Piece",
+            "price":"110",
+            "count":1
+        },
+        {
+            "img":"https://static.wixstatic.com/media/05c508_2a546c7a4c4b4cb2862540c83bd379ca~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg",
+            "name":"Chicken Boti ",
+            "qty":"1 Plate",
+            "price":"100",
+            "count":1
+        },
+        {
+            "img":"https://i1.wp.com/www.relishthebite.com/wp-content/uploads/2017/07/fishfry-3.jpg?fit=900%2C900",
+            "name":"Fish Fry",
+            "qty":"5 Piece",
+            "price":"120",
+            "count":1
+        },
+        {
+            "img":"https://4.imimg.com/data4/TJ/GF/MY-4023169/chicken-kaleji-500x500.jpg",
+            "name":"kaleji Pathri",
+            "qty":"250 gm",
+            "price":"70",
+            "count":1
+        }
+  
+    ],
+  
+    "maincourse":[
+      {
+        "img":"https://www.whiskaffair.com/wp-content/uploads/2022/03/Bihari-Chicken-Curry-2-3.jpg",
+        "name":"Chicken Curry",
+        "qty":"",
+        "price":"110",
+        "count":1
+      },
+      {
+        "img":"https://static.toiimg.com/thumb/54658925.cms?imgsize=268669&width=800&height=800",
+        "name":"Chicken Korma",
+        "qty":"",
+        "price":"120",
+        "count":1
+      },
+      {
+        "img":"https://www.whiskaffair.com/wp-content/uploads/2021/01/Chicken-Masala-2-3-1.jpg",
+        "name":"Chicken Masala",
+        "qty":"",
+        "price":"160",
+        "count":1
+      },
+      {
+        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-masala.jpg",
+        "name":"Chicken Lapeta",
+        "qty":"",
+        "price":"170",
+        "count":1
+      },
+      {
+        "img":"https://sinfullyspicy.com/wp-content/uploads/2022/11/1200-by-1200-images-1.jpg",
+        "name":"Chicken Bhuna",
+        "qty":"",
+        "price":"170",
+        "count":1
+      },
+      {
+        "img":"https://thecurrymommy.com/wp-content/uploads/2018/07/very-easy-and-the-best-Butter-chicken-or-chicken-makhani-recipe.jpg",
+        "name":"Butter Chicken",
+        "qty":"",
+        "price":"180",
+        "count":1
+      },
+      {
+        "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Curry-600x600.jpg",
+        "name":"Mutton Curry",
+        "qty":"",
+        "price":"220",
+        "count":1
+      },
+      {
+        "img":"https://i.pinimg.com/736x/a7/54/a9/a754a96ab79c8fa48ee99e11cd06ddeb.jpg",
+        "name":"Mutton Lapeta",
+        "qty":"",
+        "price":"270",
+        "count":1
+      },
+      {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1dBT2ObbkYzYG9uLxtbbIdOa9modTiyBrpg&usqp=CAU",
+        "name":"Mutton Masala",
+        "qty":"",
+        "price":"260",
+        "count":1
+      },
+      {
+        "img":"https://static.toiimg.com/thumb/58985156.cms?imgsize=319624&width=800&height=800",
+        "name":"Fish Curry",
+        "qty":"",
+        "price":"130",
+        "count":1
+      },
+      {
+        "img":"https://www.licious.in/blog/wp-content/uploads/2021/02/North-Indian-Fish-Curry.jpg",
+        "name":"Fish Masala",
+        "qty":"",
+        "price":"160",
+        "count":1
+      },
+      {
+        "img":"https://www.whiskaffair.com/wp-content/uploads/2021/02/Punjabi-Egg-Curry-2-3.jpg",
+        "name":"Anda Curry",
+        "qty":"2 Egg",
+        "price":"60",
+        "count":1
+      },
+      {
+        "img":"https://www.whiskaffair.com/wp-content/uploads/2021/02/Punjabi-Egg-Curry-2-3.jpg",
+        "name":"Anda Masala",
+        "qty":"2 Egg",
+        "price":"90",
+        "count":1
+      },
+      {
+        "img":"https://cdn.dotpe.in/longtail/item_thumbnails/6845337/BMErRsDy.jpeg",
+        "name":"kaleji Lapeta Masala",
+        "qty":"",
+        "price":"110",
+        "count":1
+      }
+    
+    
+    ],
+    "maincoursev":[
+      {
+        "img":"https://nishkitchen.com/wp-content/uploads/2015/12/PANEER-BUTTER-MASALA-1b-480x480.jpg",
+        "name":"Butter Paneer",
+        "qty":"",
+        "price":"130",
+        "count":1
+      },
+      {
+        "img":"https://thecurrymommy.com/wp-content/uploads/2021/09/butter-paneer-masala-one-pot.jpg",
+        "name":"Shahi Paneer",
+        "qty":"",
+        "price":"130",
+        "count":1
+      },
+      {
+        "img":"https://veggiedesserts.com/wp-content/uploads/2021/04/paneer-butter-masala-sq.jpg",
+        "name":"Veg Paneer Masala",
+        "qty":"",
+        "price":"110",
+        "count":1
+      },
+      {
+        "img":"https://www.cookwithmanali.com/wp-content/uploads/2014/04/Paneer-Tikka-Masala-500x500.jpg",
+        "name":"Paneer Tikka Masala",
+        "qty":"",
+        "price":"150",
+        "count":1
+      },
+      {
+        "img":"https://www.acouplecooks.com/wp-content/uploads/2022/02/How-to-Cook-Rice-002s.jpg",
+        "name":"Plain Rice",
+        "qty":"",
+        "price":"50",
+        "count":1
+      }
+  
+    ],
+    "roti":[
+      {
+        "img":"https://cdn.shopify.com/s/files/1/0549/6035/7436/products/romali-roti_result.webp?v=1661950957",
+        "name":"Romali Roti",
+        "qty":"",
+        "price":"6",
+        "count":1
+      },
+      {
+        "img":"https://punjabdadhaba.com/wp-content/uploads/2020/06/tawa-roti.gif",
+        "name":"Tawa Roti",
+        "qty":"",
+        "price":"6",
+        "count":1
+      },
+      {
+        "img":"https://www.doorkatandoor.com/wp-content/uploads/2022/01/DKT-INDIAN-BREADS-Tanoori-Roti.jpg",
+        "name":"Tandoori Roti",
+        "qty":"",
+        "price":"9",
+        "count":1
+      },
+      {
+        "img":"https://myrahandijunction.com/wp-content/uploads/2021/08/tandoori-roti-new-300x300.jpg",
+        "name":"Butter Tandoori Roti",
+        "qty":"",
+        "price":"12",
+        "count":1
+      }
+    ]
+  
+   
+  
+  }
