@@ -49,8 +49,8 @@ let total = cartData.reduce((sum,el)=>{
 
 
 
-let text = toText(cartData,"{count} x {name} price: {price}   \n")
- text = text+"\n" +"Total: "+ total
+let text = toText(cartData,"{count} x {name} Rs {price} ...  \n")
+ text = text+"\n" +"Total: Rs "+ total
 
 // console.log(total)
 // console.log(text)
@@ -140,7 +140,14 @@ const handleWhatsBtn = ()=>{
       </Box>
     </Box>
 
-   <Box border={"1px  black"} w="100%">
+   <Box border={"1px  black"} w="100%" mt={"100px"}>
+
+<Box w={{base:"",sm:"",md:"",lg:"30%",xl:"40%"}} m= "auto"  border={"1px  red"} >
+  <Heading>Bill Summary</Heading>
+  <Text lineHeight={"40px"} fontWeight={"500"} >{text}</Text>
+</Box>
+
+
    <Link  style={{textDecoration:"none"}} target={"blank"} href={`https://wa.me/+919131540270?text=${text}`} >
    <Button margin={"20px"}
     colorScheme={"green"}
