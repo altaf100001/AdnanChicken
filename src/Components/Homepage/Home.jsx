@@ -51,7 +51,11 @@ const [cart ,setCart] = useState(JSON.parse(localStorage.getItem("cxcart"))||[])
 
 const loading = useSelector(store=>store.isLoading)
 
+useEffect(()=>{
 
+  localStorage.setItem("cxcart",JSON.stringify(cart||[]))
+
+},[])
 
 
   return (
