@@ -1,7 +1,7 @@
 {
   "name": "adnan-chicken",
   "version": "0.1.0",
-  "homepage": "https://adnan-chicken.vercel.app/react/",
+  "homepage": "https://adnan-chicken.vercel.app/",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
