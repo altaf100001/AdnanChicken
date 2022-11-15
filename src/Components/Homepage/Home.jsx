@@ -1,5 +1,5 @@
 import { Box ,Image } from '@chakra-ui/react'
-import React, {  useRef } from 'react';
+import React, {  useEffect, useRef } from 'react';
 import { Menu } from './Menu';
 import {Navbar} from "../Navbar/Navbar";
 import Carousel from 'react-multi-carousel';
@@ -47,9 +47,10 @@ export const Home = React.memo(() => {
   const mainveg = useRef(null)
   const rot = useRef(null)
   const home = useRef(null)
-const [cart ,setCart] = useState(JSON.parse(localStorage.getItem("cxcart")))
+const [cart ,setCart] = useState(JSON.parse(localStorage.getItem("cxcart"))||0)
 
 const loading = useSelector(store=>store.isLoading)
+
 
 
 
