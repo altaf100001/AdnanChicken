@@ -47,7 +47,7 @@ export const Home = React.memo(() => {
   const mainveg = useRef(null)
   const rot = useRef(null)
   const home = useRef(null)
-const [cart ,setCart] = useState(JSON.parse(localStorage.getItem("cxcart"))||0)
+const [cart ,setCart] = useState(JSON.parse(localStorage.getItem("cxcart"))||[])
 
 const loading = useSelector(store=>store.isLoading)
 
