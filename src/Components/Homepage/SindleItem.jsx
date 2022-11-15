@@ -1,5 +1,5 @@
 import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
-import { isDisabled } from "@testing-library/user-event/dist/utils";
+// import { isDisabled } from "@testing-library/user-event/dist/utils";
 import React from "react";
 import { useState } from "react";
 
@@ -13,7 +13,7 @@ let cartData = JSON.parse(localStorage.getItem("cxcart"))
     handleCart(el)
     setCli(prev => prev +1)
  }
-
+console.log(clic)
   return (
     <Box >
       <Box p="50px">
@@ -63,11 +63,12 @@ let cartData = JSON.parse(localStorage.getItem("cxcart"))
                     border: "1px solid white",
                   }}
                   disabled={
-                     cartData.find(item =>{
-                        if(item.name == el.name){
+                     cartData?.find((item) =>{
+                        if(item.name === el.name){
                             el.count = 1
                             return true
                         }
+                        
                      })
                 }
                   onClick={()=>{handleClick(el)}}

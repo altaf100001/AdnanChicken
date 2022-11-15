@@ -2,11 +2,11 @@ import { Box, Button, Heading, Image, LinkBox, Text,Link } from '@chakra-ui/reac
 import { toText } from 'object-to-text'
 import React from 'react'
 import { useState } from 'react'
-import { Redirect, useHref } from 'react-router-dom'
-import { useNavigate, useParams } from 'react-router-dom'
+// import { Redirect, useHref } from 'react-router-dom'
+// import { useNavigate, useParams } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-import { SindleItem } from '../Homepage/SindleItem'
-import { Navbar } from '../Navbar/Navbar'
+// import { SindleItem } from '../Homepage/SindleItem'
+// import { Navbar } from '../Navbar/Navbar'
 
 export const Cart = () => {
 

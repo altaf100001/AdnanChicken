@@ -1,5 +1,5 @@
 import { Box ,Image } from '@chakra-ui/react'
-import React, { useEffect, useRef } from 'react';
+import React, {  useRef } from 'react';
 import { Menu } from './Menu';
 import {Navbar} from "../Navbar/Navbar";
 import Carousel from 'react-multi-carousel';
@@ -11,7 +11,7 @@ import IMG2 from "../../images/img3.png";
 import IMG3 from "../../images/img4.png";
 import IMG4 from "../../images/img5.png";
 import IMG5 from "../../images/img7.png";
-import BGimg from "../../images/bgimg.jpg";
+// import BGimg from "../../images/bgimg.jpg";
 import { useSelector } from 'react-redux';
 
 

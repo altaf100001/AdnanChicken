@@ -1,25 +1,25 @@
-import { ReactNode, useEffect } from 'react';
+// import { ReactNode, useEffect } from 'react';
 import {
   Box,
   Flex,
-  Avatar,
+  // Avatar,
   HStack,
 
   IconButton,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
+  // Menu,
+  // MenuButton,
+  // MenuList,
+  // MenuItem,
+  // MenuDivider,
   useDisclosure,
-  useColorModeValue,
+  // useColorModeValue,
   Stack,
   Text,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 
 
@@ -106,7 +106,7 @@ const handleHome =()=>{
               <Text  fontWeight={"500"} _hover={{color:"#3182ce"}} cursor={"pointer"} onClick={handleRot} > Roti </Text>
             </HStack>
           </HStack>
-         <Link to="/cart"> <Button  fontFamily={"'Space Grotesk', sans-serif"} colorScheme='blue'>Cart: {cart.length}</Button></Link>
+         <Link to="/cart"> <Button  fontFamily={"'Space Grotesk', sans-serif"} colorScheme='blue'>Cart {cart?.length}</Button></Link>
         </Flex>
 
         {isOpen ? (

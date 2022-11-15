@@ -1,6 +1,6 @@
-import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
-import { useRef } from "react";
+import { Box, Heading,  } from "@chakra-ui/react";
+import React, { useEffect } from "react";
+// import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../Redux/action";
 import { SindleItem } from "./SindleItem";
