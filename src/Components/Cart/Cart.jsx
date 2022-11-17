@@ -88,7 +88,7 @@ const handleWhatsBtn = ()=>{
         }}
         alignItems="center"
         justifyContent={"center"}
-        border="1px solid red"
+        // border="1px solid red"
         w="100%"
         gap="20px"
       >
