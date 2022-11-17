@@ -35,13 +35,13 @@ console.log(clic)
       >
         {data?.map((el, ind) => {
           return (
-            <Box display={"flex"} alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="5px">
+            <Box display={"flex"} alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" >
               <Box w="40%"  >
-                <Image height="130px" width="auto" m="auto" src={el.img} />
+                <Image   src={el.img} />
               </Box>
 
               <Box
-                mt="10px"
+                // mt="10px"
                 w="60%"
                 display={"flex"}
                 flexDirection="column"
@@ -56,7 +56,8 @@ console.log(clic)
                    Rs{el.price}-/ 
                 </Text>
                 <Button
-                  mt="10px"
+                  mt="5px"
+                  mb="5px"
                   w="100px"
                   border={"1px solid black"}
                   bg="white"

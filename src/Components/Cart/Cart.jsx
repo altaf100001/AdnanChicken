@@ -94,24 +94,24 @@ const handleWhatsBtn = ()=>{
       >
         {cartData.map((el, ind) => {
           return (
-            <Box display={"flex"} w="100%" alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="5px">
+            <Box display={"flex"} w="100%" alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" >
             <Box w="40%"  >
-                <Image height="130px" width="auto" m="auto" src={el.img} />
+                <Image w="100%" src={el.img} />
               </Box>
 
               <Box
               w="60%"
-                mt="10px"
+                // mt="10px"
                 display={"flex"}
                 flexDirection="column"
-                justifyContent="space-between"
+                // justifyContent="space-between"
                 alignItems={"center"}
               >
-                <Text fontWeight={"600"} fontSize="21px">
+                <Text fontWeight={"500"} fontSize="20px">
                   {el.name}
                 </Text>
                 <Text fontWeight={"500"}>{el.qty}</Text>
-                <Text color="#3182ce" fontWeight={"900"} fontSize="18px">
+                <Text color="#3182ce" fontWeight={"900"} fontSize="17px">
                    Rs{el.price}-/ 
                 </Text>
 
@@ -127,7 +127,8 @@ const handleWhatsBtn = ()=>{
              </Box>
 
                 <Button
-                  mt="10px"
+                  mt="5px"
+                  mb="5px"
                   border={"1px solid black"}
                   bg="white"
                   _hover={{
