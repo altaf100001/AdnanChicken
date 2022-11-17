@@ -35,16 +35,18 @@ console.log(clic)
       >
         {data?.map((el, ind) => {
           return (
-            <Box key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="10px">
-              <Box>
-                <Image height="400px" width="auto" m="auto" src={el.img} />
+            <Box display={"flex"} alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="5px">
+              <Box w="40%"  >
+                <Image height="130px" width="auto" m="auto" src={el.img} />
               </Box>
 
               <Box
                 mt="10px"
+                w="60%"
                 display={"flex"}
                 flexDirection="column"
                 justifyContent="space-between"
+                alignItems={"center"}
               >
                 <Text fontWeight={"600"} fontSize="23px">
                   {el.name}
@@ -55,6 +57,7 @@ console.log(clic)
                 </Text>
                 <Button
                   mt="10px"
+                  w="100px"
                   border={"1px solid black"}
                   bg="white"
                   _hover={{

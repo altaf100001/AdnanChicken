@@ -1,11 +1,11 @@
-import { Box, Heading,  } from "@chakra-ui/react";
+import { Box, Button, Heading, HStack, Stack, Text,  } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 // import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../Redux/action";
 import { SindleItem } from "./SindleItem";
 
-export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart}) => {
+export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart,}) => {
  
     let cartData = JSON.parse(localStorage.getItem("cxcart")) || []
 
@@ -38,7 +38,31 @@ export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart}) => {
     
    
 
-
+    const handleBri =()=>{
+   
+      bri.current?.scrollIntoView({behavior: 'smooth'})
+  
+  }
+  const handleMain =()=>{
+   
+      main.current?.scrollIntoView({behavior: 'smooth'})
+  
+  }
+  const handleMainV =()=>{
+  
+      mainveg.current?.scrollIntoView({behavior: 'smooth'})
+  
+  }
+  const handleRot =()=>{
+   
+      rot.current?.scrollIntoView({behavior: 'smooth'})
+  
+  }
+  const handleStar =()=>{
+   
+      star.current?.scrollIntoView({behavior: 'smooth'})
+  
+  }
 
 
   return (
@@ -63,6 +87,27 @@ export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart}) => {
           Menu that always make you fall in love
         </Heading>
       </Box>
+
+  <Box
+   w="100%"
+    display={{base:"block",sm:"block",md:"none",lg:"none",xl:"none","2xl":"none"}} 
+     m = "auto" border={"1px  red"} 
+     p="30px"
+     
+    //  borderRadius={"20px"}
+    //  shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
+      >
+  <Stack>
+             
+              <Button w="100%" colorScheme={"blue"}  fontWeight={"500"} fontSize={"25px"}  onClick={handleBri} >Biryani</Button>
+              <Button w="100%"  colorScheme={"blue"}  fontWeight={"500"} fontSize={"25px"}  onClick={handleStar} >Starter & Kabab</Button>
+              <Button w="100%" colorScheme={"blue"}  fontWeight={"500"} fontSize={"25px"}  onClick={handleMain} >Main Course Non-Veg</Button>
+              <Button w="100%"  colorScheme={"blue"} fontWeight={"500"} fontSize={"25px"} onClick={handleMainV} >Main Course Veg</Button>
+              <Button w="100%" colorScheme={"blue"}  fontWeight={"500"} fontSize={"25px"} onClick={handleRot} >Roti</Button>
+             
+            </Stack>
+  </Box>
+
 
       <Box>
         {/* Menu item listed briyani start here */}

@@ -90,18 +90,20 @@ const handleWhatsBtn = ()=>{
       >
         {cartData.map((el, ind) => {
           return (
-            <Box key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="10px">
-              <Box>
-                <Image height="400px" width="auto" m="auto" src={el.img} />
+            <Box display={"flex"} alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="5px">
+            <Box w="40%"  >
+                <Image height="130px" width="auto" m="auto" src={el.img} />
               </Box>
 
               <Box
+              w="60%"
                 mt="10px"
                 display={"flex"}
                 flexDirection="column"
                 justifyContent="space-between"
+                alignItems={"center"}
               >
-                <Text fontWeight={"600"} fontSize="23px">
+                <Text fontWeight={"600"} fontSize="21px">
                   {el.name}
                 </Text>
                 <Text fontWeight={"500"}>{el.qty}</Text>
@@ -115,9 +117,9 @@ const handleWhatsBtn = ()=>{
              alignItems={"center"}
              justifyContent="space-around"
              >
-                <Button colorScheme="red" onClick={()=>{handleMinus(el)}} >-</Button>
-                <Text>Quantity: {el.count}</Text>
-                <Button colorScheme="yellow" onClick={()=>{handlePlus(el)}} >+</Button>
+                <Button colorScheme="red" display={"flex"} alignItems={"center"} justifyContent="center" h="20px" onClick={()=>{handleMinus(el)}} >-</Button>
+                <Text  fontWeight={"900"} fontSize="18px"m="10px" >{el.count}</Text>
+                <Button colorScheme="yellow" display={"flex"} alignItems={"center"} justifyContent="center"  h="20px" onClick={()=>{handlePlus(el)}} >+</Button>
              </Box>
 
                 <Button

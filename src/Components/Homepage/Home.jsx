@@ -95,10 +95,13 @@ useEffect(()=>{
    </Carousel>
     </Box>
    
+   <Box>
+   
+   </Box>
 
 
    <Box>
-   <Menu bri={bri} star={star}  main={main} mainveg={mainveg} rot={rot} setCart={setCart}  />
+   <Menu bri={bri} star={star}  main={main} mainveg={mainveg} rot={rot}  setCart={setCart}  />
    </Box>
 
 
