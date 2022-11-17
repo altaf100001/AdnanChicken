@@ -68,7 +68,7 @@ const handleWhatsBtn = ()=>{
 
 
   return (
-<Box  display={"flex"} flexDirection="column" alignItems={"start"} p="20px" justifyContent="center" >
+<Box  display={"flex"} flexDirection="column"  p="20px" justifyContent="center" >
   <NavLink to="/"><Button colorScheme="blue" >Back to home</Button></NavLink>
   <Box >
       <Box p="50px">
@@ -86,6 +86,9 @@ const handleWhatsBtn = ()=>{
           xl: "repeat(3,1fr)",
           "2xl": "repeat(4,1fr)",
         }}
+        alignItems="center"
+        justifyContent={"center"}
+        border="1px solid red"
         w="100%"
         gap="20px"
       >
