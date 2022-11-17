@@ -86,11 +86,12 @@ const handleWhatsBtn = ()=>{
           xl: "repeat(3,1fr)",
           "2xl": "repeat(4,1fr)",
         }}
+        w="100%"
         gap="20px"
       >
         {cartData.map((el, ind) => {
           return (
-            <Box display={"flex"} alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="5px">
+            <Box display={"flex"} w="100%" alignItems="center" justifyContent={"space-between"} key={ind} shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" p="5px">
             <Box w="40%"  >
                 <Image height="130px" width="auto" m="auto" src={el.img} />
               </Box>
