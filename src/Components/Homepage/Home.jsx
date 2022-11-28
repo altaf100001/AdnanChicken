@@ -39,7 +39,9 @@ const responsive = {
 
 
 
-export const Home = React.memo(() => {
+export const Home = () => {
+
+  // console.log(a)
 
   const bri = useRef(null)
   const star = useRef(null)
@@ -107,4 +109,4 @@ useEffect(()=>{
 
   </Box>
   )
-});
+};

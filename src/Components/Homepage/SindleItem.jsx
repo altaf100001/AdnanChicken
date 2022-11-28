@@ -13,7 +13,7 @@ let cartData = JSON.parse(localStorage.getItem("cxcart"))
     handleCart(el)
     setCli(prev => prev +1)
  }
-console.log(clic)
+// console.log(clic)
   return (
     <Box >
       <Box p="50px">
