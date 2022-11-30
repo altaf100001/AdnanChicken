@@ -27,6 +27,10 @@ export const getData = () =>(dispatch)=>{
         })
         .then((d) => {
             // console.log(d,"data inner fun")
+            // console.log(d,"data inner fun")
+            // console.log(d,"data inner fun")
+            // console.log(d,"data inner fun")
+            // console.log(d,"data inner fun")
             dispatch(getDataSuccess(d))
         })
         .catch(err =>{
