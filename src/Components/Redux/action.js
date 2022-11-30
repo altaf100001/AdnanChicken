@@ -21,7 +21,7 @@ const getDataFailure =()=>{
 export const getData = () =>(dispatch)=>{
     // console.log("data inner fun")
     dispatch(getDataRequest())
-    fetch("https://apimockeradnanchicken.onrender.com/data")
+    fetch("https://apimockeradnanchicken.onrender.com/adnanChickendata")
         .then((r) => {
           return r.json();
         })
