@@ -1,70 +1,142 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Adnan Briyani Point</h1> 
 
-## Available Scripts
+![Screenshot (1413)](https://i.imgur.com/IumrSzh.jpg)
 
-In the project directory, you can run:
 
-### `npm start`
+<h2 align="center">Web application to show the smooth and clean user flow.</h2>    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br />
+<p align="center">
+    <img src="https://img.shields.io/badge/React_(18.2.0)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
+    <img src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra-ui"/>
+    <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>   
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+ 
+    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h3 align="center"><a href="https://adnan-chicken.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center"> 
+    <br />&#10023;
+    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;   
+  </p>
+  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#  <h1><a href="https://adnan-chicken.vercel.app/">Adnan Briyani Point </a> </h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# <h2>About Adnan Briyani Point Website : </h2>
 
-### `npm run eject`
+<a href="https://adnan-chicken.vercel.app/">Adnan Briyani Point </a>  is food ordering website , you can order food online on whatsApp. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Features
+- Homepage
+- Cartpage
+- Place order on Whatsaap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# <h2>Home Page : </h2>
+![Screenshot (1413)](https://i.imgur.com/2jmErjd.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# <h2>Cart Page : </h2>
+![Screenshot (1414)](https://i.imgur.com/TEUcABD.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was built using React v 17.0.2, Chakra UI, CSS and Rest API. It is a web application and for running on your local environment you should follow these guidelines.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+- NPM 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+You can download the code as zip file or you can clone it using the following commands 
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+# git clone  
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
++ Open terminal on your workspace with
 
-### `npm run build` fails to minify
+```
+cd filename
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Install
+
+Install NPM
+
+Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+
+```
+node -v
+```
+
+To confirm that you have npm installed you can run this command in your terminal:
+
+
+```
+npm -v
+```
+
+
+To install all the dependences of the project, run the following command:
+
+
+```
+npm install
+```
+
+
+To run the application, run the following command:
+
+```
+npm run dev
+```
+
+
+### Tools used on this project
+
+- Visual Studio Code
+
+
+<br/>
+
+
+
+## Links :
+# <h3>Deployment Link   :  https://adnan-chicken.vercel.app/</h3>
+# <h3>Github Link       :  https://github.com/altaf100001/AdnanChicken</h3>
+
+
+
+## Contact
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/altaf-ali-baig-1b87b8190/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/altaf100001)
+
+© 2022 Altaf ali baig
+
+
+
+
+
+
+
