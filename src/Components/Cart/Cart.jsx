@@ -24,7 +24,7 @@ const handleRemove = (item,ind) =>{
 
 }
 
-hllo
+
 
 const [c,setC] = useState(0)
 
