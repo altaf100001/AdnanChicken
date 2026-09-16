@@ -136,9 +136,9 @@ export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart,}) => {
 
         {/* Menu item listed MainCourseVeg Start here */}
 
-        <Box p="10px" ref={mainveg}>
+        { food?.maincoursev.length && <Box p="10px" ref={mainveg}>
           <SindleItem data={food?.maincoursev} heading={"Main Course Veg"} handleCart={handleCart} />
-        </Box>
+        </Box> }
 
         {/* Menu item listed MainCourseVeg end here */}
 
