@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Image, LinkBox, Text,Link } from '@chakra-ui/react'
+import { Box, Button, Heading, Image, Text,Link } from '@chakra-ui/react'
 import { toText } from 'object-to-text'
 import React from 'react'
 import { useState } from 'react'
@@ -26,20 +26,16 @@ const handleRemove = (item,ind) =>{
 
 
 
-const [c,setC] = useState(0)
-
 const handlePlus =(item)=>{
         
 item.count = item.count+1
 localStorage.setItem("cxcart",JSON.stringify(cartData))
-setC(p=>p+1)
 }
 const handleMinus =(item)=>{
     
     if(item.count>1)  
 item.count = item.count-1
 localStorage.setItem("cxcart",JSON.stringify(cartData))
-setC(p=>p+1)
 }
 
 
@@ -52,7 +48,7 @@ let total = cartData.reduce((sum,el)=>{
 
 
 let text = toText(cartData,"{count} x {name} Rs {price} ...  \n")
- text = text+"\n" +"Total: Rs "+ total
+ text = `${text}\nTotal: Rs ${total}`
 
 // console.log(total)
 // console.log(text)

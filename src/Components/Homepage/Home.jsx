@@ -12,7 +12,6 @@ import IMG3 from "../../images/img4.png";
 import IMG4 from "../../images/img5.png";
 import IMG5 from "../../images/img7.png";
 // import BGimg from "../../images/bgimg.jpg";
-import { useSelector } from 'react-redux';
 
 
 
@@ -51,13 +50,11 @@ export const Home = () => {
   const home = useRef(null)
 const [cart ,setCart] = useState(JSON.parse(localStorage.getItem("cxcart"))||[])
 
-const loading = useSelector(store=>store.isLoading)
-
 useEffect(()=>{
 
   localStorage.setItem("cxcart",JSON.stringify(cart||[]))
 
-},[])
+},[cart])
 
 
   return (

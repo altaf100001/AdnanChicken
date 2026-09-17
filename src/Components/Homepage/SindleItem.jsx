@@ -1,19 +1,14 @@
 import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
 // import { isDisabled } from "@testing-library/user-event/dist/utils";
 import React from "react";
-import { useState } from "react";
 
 export const SindleItem = ({ data,heading,handleCart }) => {
-
-const [clic,setCli] = useState(0)
 
 let cartData = JSON.parse(localStorage.getItem("cxcart"))
 
  const handleClick =(el) =>{
     handleCart(el)
-    setCli(prev => prev +1)
  }
-// console.log(clic)
   return (
     <Box >
       <Box p="50px">
@@ -72,7 +67,7 @@ let cartData = JSON.parse(localStorage.getItem("cxcart"))
                             el.count = 1
                             return true
                         }
-                        
+                        return false
                      })
                 }
                   onClick={()=>{handleClick(el)}}

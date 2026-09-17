@@ -1,4 +1,4 @@
-import { Box, Button, Heading, HStack, Stack, Text,  } from "@chakra-ui/react";
+import { Box, Button, Heading, Stack } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 // import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -32,7 +32,7 @@ export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart,}) => {
         dispatch(getData())
     
       
-    },[])
+    },[dispatch])
 
     // console.log(food)
     
@@ -73,7 +73,6 @@ export const Menu = React.memo(({ bri, star, main, mainveg, rot,setCart,}) => {
           base: "35px",
           sm: "35px",
           md: "40px",
-          xl: "45px",
           lg: "50px",
           xl: "50px",
           "2xl": "50px",
